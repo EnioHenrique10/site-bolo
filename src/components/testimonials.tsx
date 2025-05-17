@@ -45,7 +45,9 @@ export default function Testimonials() {
                   </svg>
                 ))}
               </div>
-              <p className="mb-4 italic">"{testimonial.text}"</p>
+              <p className="mb-4 italic">&quot;{testimonial.text}&quot;</p>
+
+
               <p className="font-semibold">- {testimonial.name}</p>
             </div>
           ))}
